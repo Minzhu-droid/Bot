@@ -1,0 +1,23 @@
+{
+  "login_url": "https://example.com/login",
+  "dashboard_url": "",
+  "username": "YOUR_USERNAME_HERE",
+  "password": "YOUR_PASSWORD_HERE",
+
+  "_comment_times": "Times to take screenshots daily (24h format) - default twice a day 9am and 9pm",
+  "times": ["09:00", "21:00"],
+
+  "_comment_headless": "true = runs hidden in background, false = you see browser (for testing)",
+  "headless": true,
+
+  "_comment_screenshot": "true = full page, false = visible area only",
+  "screenshot_full_page": true,
+
+  "_comment_wait": "Seconds to wait after login before screenshot",
+  "wait_after_login": 5,
+
+  "_comment_selectors": "OPTIONAL - Leave empty for auto-detect. Only fill if auto-login fails",
+  "username_selector": "",
+  "password_selector": "",
+  "login_button_selector": ""
+}
